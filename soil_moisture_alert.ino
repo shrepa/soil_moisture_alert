@@ -1,7 +1,7 @@
 /* Get these three details from your Blynk account */
-#define BLYNK_TEMPLATE_ID "TMPL3r-yqNHmP"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "soil health"
-#define BLYNK_AUTH_TOKEN "t3VCBy7A2x_EiEnAS7zTzYQVuetSMHj8"
+#define BLYNK_AUTH_TOKEN ""
 
 #include "DHT.h"
 #include <WiFi.h>
@@ -24,7 +24,7 @@ char pass[] = " "; //WiFi Password
 BlynkTimer timer;
 HTTPClient http;
 
-String apiKey = "7b8621f0beb7044a241fbeb01527bdb6";     //OpenWeatherMap API key  
+String apiKey = " ";     //OpenWeatherMap API key  
 String city = "Mumbai";         
 String country = "IN";                       
 
